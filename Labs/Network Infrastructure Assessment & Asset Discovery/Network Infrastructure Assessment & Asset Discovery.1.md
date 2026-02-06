@@ -6,7 +6,8 @@
 This project simulates the role of a Network Engineer tasked with mapping an undocumented production IP data network. Using a combination of manual enumeration and automated scanning tools, I reconstructed the physical and logical topology of a multi-router environment. This assessment identifies all active hosts, subnets, and routing paths to ensure comprehensive network visibility and eliminate security "blind spots."
 
 ## Lab Environment & Topology
-
+```javascript
+ nmap -O -oX "C:\\Users\\Administrator\\Desktop\\networkReport.xml" 172.20,21,22,30,31,40.0.0/24 ```
 The environment consisted of a Windows-based workstation and a backbone network of three core routing devices:
 
 -   **Workstation:** Windows Server 2019
@@ -102,5 +103,5 @@ To replace manual methods with more efficient security auditing, I utilized **Nm
     
 -   **Technical Documentation:** Translating raw command-line data into professional asset reports and topology maps.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzkxMjgxN119
+eyJoaXN0b3J5IjpbMTAyODc0MTQ0OCwxMjYzOTEyODE3XX0=
 -->
